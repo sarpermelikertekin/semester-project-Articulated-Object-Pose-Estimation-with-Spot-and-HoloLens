@@ -3,5 +3,7 @@ import yolov8
 
 sye.run_prediction()
 
-yolov8.predict()
+outputstring = yolov8.predict()
+
+print(outputstring)
 

@@ -47,6 +47,3 @@ def predict():
             print(output_string)
 
     return output_strings
-
-# Call the predict function
-output_strings = predict()
