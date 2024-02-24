@@ -1,10 +1,8 @@
 from ultralytics import YOLO
 import cv2
 
-model_path = 'C:\\Users\\sakar\\Semester Project\\semester-project-yolov8\\runs\\pose\\train22\\weights\\last.pt'
-image_path = 'C:\\Users\\sakar\\Semester Project\\semester-project-yolov8\\spot.jpg'
 
-def predict():
+def predict(model_path, image_path):
     # Load the YOLO model
     model = YOLO(model_path)
 
