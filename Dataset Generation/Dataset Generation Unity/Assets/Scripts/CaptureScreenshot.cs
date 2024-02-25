@@ -36,13 +36,13 @@ public class CaptureScreenshot : MonoBehaviour
         switch (format)
         {
             case PictureFormat.PNG:
-                return ".png";
+                return "png";
             case PictureFormat.JPEG:
-                return ".jpg";
+                return "jpg";
             case PictureFormat.EXR:
-                return ".exr";
+                return "exr";
             default:
-                return ".png";
+                return "png";
         }
     }
 }
