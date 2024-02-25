@@ -73,7 +73,7 @@ def main():
 
 server_ip = ''  # listen from any ip
 server_port = 6000  
-image_path = 'received_frame.jpg'
+image_path = paths.image_path
 yolov8_model_path = paths.yolov8_model_path
 sye_model_path = paths.sye_model_path
 main()
