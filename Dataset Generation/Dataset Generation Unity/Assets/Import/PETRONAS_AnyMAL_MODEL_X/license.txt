@@ -1,0 +1,11 @@
+Model Information:
+* title:	PETRONAS AnyMAL MODEL X
+* source:	https://sketchfab.com/3d-models/petronas-anymal-model-x-bb00c77c910c4682bee15dae26a8b282
+* author:	Cyform_Studio (https://sketchfab.com/Cyform_Studio)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PETRONAS AnyMAL MODEL X" (https://sketchfab.com/3d-models/petronas-anymal-model-x-bb00c77c910c4682bee15dae26a8b282) by Cyform_Studio (https://sketchfab.com/Cyform_Studio) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	SPOT MINI "rigged" Boston dynamics low poly
+* source:	https://sketchfab.com/3d-models/spot-mini-rigged-boston-dynamics-low-poly-22a0941a83bf4adeaa8ab44050d3c58e
+* author:	EREMA_GEP (https://sketchfab.com/EREMA_GEP)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SPOT MINI "rigged" Boston dynamics low poly" (https://sketchfab.com/3d-models/spot-mini-rigged-boston-dynamics-low-poly-22a0941a83bf4adeaa8ab44050d3c58e) by EREMA_GEP (https://sketchfab.com/EREMA_GEP) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

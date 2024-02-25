@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spot robot low poly model with rig
+* source:	https://sketchfab.com/3d-models/spot-robot-low-poly-model-with-rig-5d114e1b5c224ae39b36fdbb3fae5a1e
+* author:	CG Material (https://sketchfab.com/cg_material)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spot robot low poly model with rig" (https://sketchfab.com/3d-models/spot-robot-low-poly-model-with-rig-5d114e1b5c224ae39b36fdbb3fae5a1e) by CG Material (https://sketchfab.com/cg_material) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
