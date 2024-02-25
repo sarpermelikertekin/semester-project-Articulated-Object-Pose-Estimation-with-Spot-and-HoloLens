@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>578749</id>
+      <size>50</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-02-18 20:49:54.768374+00:00</created>
+      <updated>2024-02-18 22:02:06.787090+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>49</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>579862</id>
+          <start>0</start>
+          <stop>49</stop>
+          <url>https://app.cvat.ai/api/jobs/578749</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>sarper_melik</username>
+        <email>sarpermelikertekin@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Spot</name>
+          <color>#6ec4d1</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-02-18 22:06:40.713615+00:00</dumped>
+  </meta>
+  <image id="0" name="r0.jpg" width="744" height="535">
+    <points label="Spot" source="manual" occluded="0" points="219.07,114.39;144.89,127.13;231.81,236.53;188.35,372.15;279.01,111.40;353.94,191.57;286.51,301.72;348.70,125.63;495.56,226.04;380.17,367.66;477.58,112.15;590.72,244.77;510.55,399.88" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="98.88" ytl="71.16" xbr="614.40" ybr="417.34" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="r1.jpg" width="324" height="272">
+    <points label="Spot" source="manual" occluded="0" points="88.67,81.70;133.24,84.74;184.67,139.22;134.00,233.31;65.81,75.60;126.38,127.03;75.33,192.17;247.52,63.03;272.29,106.46;224.29,159.41;191.91,55.41;214.38,95.79;194.95,170.08" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="41.43" ytl="37.12" xbr="287.52" ybr="245.12" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="r10.jpg" width="878" height="638">
+    <points label="Spot" source="manual" occluded="0" points="519.91,166.68;657.52,155.07;552.97,285.53;563.69,538.40;373.36,172.05;376.94,391.86;482.38,558.06;471.66,90.73;414.47,282.85;477.02,436.54;255.41,103.24;216.10,221.19;293.84,466.03" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="164.27" ytl="19.25" xbr="701.30" ybr="607.21" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="r11.jpg" width="887" height="541">
+    <points label="Spot" source="manual" occluded="0" points="689.71,122.34;600.30,128.41;520.74,326.17;685.17,432.24;755.63,170.08;586.66,245.85;598.79,439.82;271.46,135.98;116.13,220.85;197.96,434.52;423.00,163.26;307.07,357.23;444.97,463.31" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="81.28" ytl="58.70" xbr="806.40" ybr="500.44" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="r12.jpg" width="343" height="209">
+    <points label="Spot" source="manual" occluded="0" points="90.86,55.91;94.96,58.26;153.21,110.65;99.06,169.78;99.35,59.72;163.75,79.62;105.79,135.24;236.93,62.94;307.77,91.63;246.59,140.22;234.30,62.94;278.79,107.43;231.37,166.85" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="56.32" ytl="36.59" xbr="318.89" ybr="186.17" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="r13.jpg" width="771" height="356">
+    <points label="Spot" source="manual" occluded="0" points="607.10,142.60;551.35,92.43;411.98,120.31;554.70,156.54;645.57,140.37;520.13,177.73;666.75,215.08;289.89,156.54;117.07,187.20;262.58,198.91;377.97,208.95;200.14,248.53;404.18,281.42" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="69.69" ytl="70.13" xbr="696.30" ybr="307.62" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="r14.jpg" width="376" height="276">
+    <points label="Spot" source="manual" occluded="0" points="227.83,62.04;189.18,67.06;154.00,106.49;191.11,161.00;270.74,71.32;244.84,138.19;247.93,200.04;126.56,82.14;106.45,154.81;144.72,224.78;232.47,81.75;195.36,120.80;206.57,186.51" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="82.87" ytl="45.03" xbr="291.23" ybr="239.47" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="r15.jpg" width="660" height="417">
+    <points label="Spot" source="manual" occluded="0" points="156.55,130.80;130.27,140.73;224.89,289.07;82.97,395.95;200.36,132.55;334.10,203.80;276.28,371.42;450.91,156.50;606.84,228.92;568.30,402.96;460.84,131.38;570.05,281.48;424.62,380.76" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="64.28" ytl="88.75" xbr="640.13" ybr="415.22" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="r16.jpg" width="427" height="277">
+    <points label="Spot" source="manual" occluded="0" points="250.56,90.76;304.49,87.27;265.30,98.13;256.38,213.74;191.20,93.09;187.71,168.74;218.75,263.40;246.29,79.90;222.24,128.01;231.16,198.61;161.33,70.59;151.25,88.05;172.19,171.07" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="134.18" ytl="40.72" xbr="325.44" ybr="276.21" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="r17.jpg" width="562" height="438">
+    <points label="Spot" source="manual" occluded="0" points="273.05,103.37;372.43,102.14;382.24,215.02;366.91,394.14;172.44,109.50;200.05,217.47;208.02,392.92;395.74,92.94;370.59,216.24;341.75,356.11;193.91,73.31;215.38,197.23;189.01,357.34" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="136.86" ytl="24.85" xbr="420.89" ybr="418.68" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="r18.jpg" width="893" height="453">
+    <points label="Spot" source="manual" occluded="0" points="274.43,110.94;247.95,137.41;431.33,217.48;302.19,353.07;280.24,128.37;418.42,205.86;265.39,311.75;563.70,138.70;716.73,259.45;583.07,393.11;595.34,129.66;754.83,214.25;580.49,304.00" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="193.07" ytl="66.38" xbr="784.53" ybr="417.00" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="r19.jpg" width="869" height="459">
+    <points label="Spot" source="manual" occluded="0" points="308.81,121.48;293.38,138.19;428.38,252.62;317.16,393.41;319.74,124.69;474.66,197.34;339.66,311.12;618.66,147.19;784.52,227.55;616.09,335.55;639.24,136.91;764.59,233.34;631.52,376.05" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="222.66" ytl="80.98" xbr="823.74" ybr="422.98" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="r2.jpg" width="291" height="308">
+    <points label="Spot" source="manual" occluded="0" points="113.34,96.60;167.26,96.60;194.01,151.82;184.52,240.68;70.20,98.76;85.73,167.78;71.50,260.96;208.68,71.15;225.93,147.94;228.52,226.45;131.03,62.53;143.54,122.92;121.11,181.15" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="51.22" ytl="45.70" xbr="243.19" ybr="279.08" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="r20.jpg" width="709" height="410">
+    <points label="Spot" source="manual" occluded="0" points="559.22,115.40;546.01,118.27;449.54,214.17;541.99,351.41;531.66,129.75;375.47,226.80;540.27,332.46;323.21,130.90;237.08,192.34;320.34,266.99;242.82,117.70;150.94,218.76;235.35,343.37" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="121.66" ytl="68.89" xbr="615.49" ybr="375.52" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="r21.jpg" width="790" height="448">
+    <points label="Spot" source="manual" occluded="0" points="230.61,101.04;237.51,156.26;363.00,260.42;240.02,358.93;222.45,58.38;361.12,165.67;258.22,285.51;543.08,161.28;674.22,245.98;561.28,357.67;541.20,55.87;667.32,153.75;561.28,279.87" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="149.04" ytl="31.40" xbr="706.22" ybr="386.53" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="r22.jpg" width="861" height="499">
+    <points label="Spot" source="manual" occluded="0" points="618.85,120.54;595.08,73.02;519.61,226.77;672.66,295.27;655.89,189.04;495.84,279.19;530.79,381.93;277.79,142.91;145.01,247.74;196.72,394.51;335.10,260.32;238.66,388.92;398.00,431.55" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="104.47" ytl="49.96" xbr="715.29" ybr="465.09" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="r23.jpg" width="651" height="443">
+    <points label="Spot" source="manual" occluded="0" points="408.97,126.86;476.60,118.17;405.87,218.06;475.36,358.28;327.08,128.72;255.10,231.71;303.50,376.90;279.30,93.35;249.52,172.15;298.54,291.28;193.06,97.08;131.01,181.46;163.90,309.27" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="103.09" ytl="54.89" xbr="511.35" ybr="403.58" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="r24.jpg" width="579" height="290">
+    <points label="Spot" source="manual" occluded="0" points="283.83,116.95;317.74,124.91;325.69,159.65;293.04,183.52;254.10,112.76;274.20,136.63;259.96,191.05;362.12,115.28;368.39,133.28;339.09,183.94;318.57,101.88;326.95,131.18;300.15,161.75" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="237.77" ytl="84.30" xbr="381.79" ybr="203.61" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="r25.jpg" width="406" height="402">
+    <points label="Spot" source="manual" occluded="0" points="229.47,82.18;163.60,83.31;152.34,185.78;188.37,247.71;295.35,90.07;265.51,167.20;257.06,224.07;111.24,144.12;61.13,200.42;121.93,284.87;248.61,146.37;214.83,267.98;213.71,343.43" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="37.48" ytl="64.17" xbr="317.30" ybr="360.32" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="r26.jpg" width="497" height="358">
+    <points label="Spot" source="manual" occluded="0" points="314.41,88.73;252.24,85.72;250.73,190.51;290.84,232.13;380.09,93.24;350.51,167.45;343.49,219.09;192.07,136.36;156.47,198.04;199.59,315.36;351.51,139.87;309.90,271.74;310.90,315.86" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="131.40" ytl="68.17" xbr="403.16" ybr="337.93" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="r27.jpg" width="754" height="451">
+    <points label="Spot" source="manual" occluded="0" points="500.81,91.88;476.17,105.14;397.85,199.89;521.65,246.00;529.23,103.25;438.91,189.15;498.28,300.32;270.26,179.05;167.30,276.32;236.78,383.07;308.16,189.78;202.67,279.48;346.05,335.70" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="149.61" ytl="62.19" xbr="565.24" ybr="393.18" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="r28.jpg" width="552" height="364">
+    <points label="Spot" source="manual" occluded="0" points="315.78,107.07;396.33,129.50;322.41,236.56;322.41,350.25;211.53,114.72;198.27,283.97;240.59,359.93;280.86,147.86;242.12,266.64;234.98,327.82;134.04,155.50;113.14,251.35;119.76,323.74" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="86.12" ytl="63.23" xbr="436.86" ybr="362.99" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="r29.jpg" width="493" height="287">
+    <points label="Spot" source="manual" occluded="0" points="257.76,118.76;242.49,114.74;215.15,164.18;244.50,203.17;276.25,128.41;242.89,153.73;260.98,203.17;169.33,143.68;118.68,168.61;153.65,201.97;205.91,153.33;170.13,209.61;194.65,235.73" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="101.80" ytl="100.27" xbr="304.39" ybr="246.99" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="r3.jpg" width="425" height="342">
+    <points label="Spot" source="manual" occluded="0" points="111.43,83.84;71.20,91.51;132.51,189.70;95.15,256.76;133.95,79.53;202.92,161.44;138.26,184.91;244.59,150.42;334.17,262.51;235.97,275.92;316.92,119.29;392.60,217.48;310.70,297.95" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="42.46" ytl="45.53" xbr="413.68" ybr="317.11" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="r30.jpg" width="594" height="324">
+    <points label="Spot" source="manual" occluded="0" points="187.86,127.05;201.47,124.33;246.39,216.44;181.05,297.67;196.02,130.23;266.36,169.70;189.67,229.15;374.36,135.67;467.38,178.33;383.44,234.14;354.39,138.85;386.61,216.44;328.53,292.68" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="134.76" ytl="98.01" xbr="483.27" ybr="315.37" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="r31.jpg" width="645" height="402">
+    <points label="Spot" source="manual" occluded="0" points="212.69,92.88;204.81,109.21;255.48,216.75;150.20,255.60;213.26,105.27;316.29,150.87;278.57,243.21;436.21,148.06;531.37,215.06;502.65,325.41;431.15,141.30;472.25,242.08;382.73,288.25" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="122.61" ytl="57.97" xbr="549.95" ybr="343.43" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="r32.jpg" width="362" height="203">
+    <points label="Spot" source="manual" occluded="0" points="185.42,120.11;228.35,101.91;233.18,116.41;251.09,135.75;146.75,99.92;136.80,114.71;128.55,137.45;207.59,89.97;205.32,97.93;218.11,116.70;132.82,85.42;117.75,100.21;120.31,117.83" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="99.27" ytl="72.34" xbr="269.29" ybr="155.65" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="r33.jpg" width="345" height="221">
+    <points label="Spot" source="manual" occluded="0" points="160.14,57.41;213.37,54.31;195.73,110.02;181.18,171.00;116.80,54.62;126.71,111.26;133.21,179.98;208.11,51.21;207.80,117.45;203.47,174.71;125.47,52.76;126.71,108.48;122.37,156.45" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="97.92" ytl="29.55" xbr="227.92" ybr="192.98" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="r34.jpg" width="774" height="437">
+    <points label="Spot" source="manual" occluded="0" points="246.54,82.33;194.52,94.57;231.85,216.37;211.04,319.19;304.07,79.27;375.07,175.36;285.71,279.41;294.28,98.24;418.53,235.34;335.90,355.30;506.05,101.92;570.93,267.17;438.11,401.82" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="147.39" ytl="41.32" xbr="615.60" ybr="431.81" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="r35.jpg" width="461" height="271">
+    <points label="Spot" source="manual" occluded="0" points="386.87,61.29;382.70,63.57;291.23,131.13;361.44,229.06;388.01,64.71;301.09,139.86;386.11,254.49;161.80,67.37;97.28,138.34;173.56,227.92;160.66,63.57;74.12,149.35;156.86,259.04" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="54.39" ytl="28.27" xbr="437.35" ybr="268.15" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="r36.jpg" width="694" height="396">
+    <points label="Spot" source="manual" occluded="0" points="200.88,77.64;165.94,103.16;213.08,219.63;142.09,246.80;246.36,81.53;326.78,156.40;290.73,229.61;383.35,147.53;462.11,283.96;355.62,328.89;441.59,115.36;547.52,189.12;561.94,312.25" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="118.80" ytl="43.81" xbr="583.01" ybr="352.18" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="r37.jpg" width="804" height="562">
+    <points label="Spot" source="manual" occluded="0" points="274.08,151.13;377.19,151.91;436.22,314.85;346.49,536.81;178.05,138.53;247.31,242.43;167.03,431.34;537.76,109.41;599.15,201.50;541.69,377.82;360.66,89.73;391.36,254.24;357.51,423.47" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="109.57" ytl="31.49" xbr="637.72" ybr="559.64" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="r38.jpg" width="709" height="446">
+    <points label="Spot" source="manual" occluded="0" points="467.55,116.18;528.14,124.93;431.32,264.85;546.26,415.39;390.09,113.06;269.54,199.89;312.64,396.65;316.38,103.69;242.05,163.66;267.66,291.71;197.08,102.44;156.47,228.62;208.94,360.42" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="125.24" ytl="57.47" xbr="578.74" ybr="437.25" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="r39.jpg" width="746" height="545">
+    <points label="Spot" source="manual" occluded="0" points="188.64,203.44;232.14,262.98;382.52,346.95;237.49,504.19;148.18,146.20;236.72,256.11;156.58,382.06;586.32,165.28;680.21,265.27;544.34,401.90;474.88,63.00;545.86,152.30;441.29,291.22" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="75.67" ytl="25.59" xbr="718.37" ybr="533.96" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="r4.jpg" width="339" height="272">
+    <points label="Spot" source="manual" occluded="0" points="109.31,89.12;141.31,97.12;193.51,156.17;157.31,244.55;70.46,87.98;117.31,136.36;81.89,220.55;243.79,63.60;276.17,116.55;250.27,189.31;190.46,64.36;207.60,105.89;175.60,172.17" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="49.51" ytl="32.36" xbr="292.17" ybr="260.55" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="r40.jpg" width="421" height="272">
+    <points label="Spot" source="manual" occluded="0" points="149.16,79.60;200.21,81.51;244.40,124.93;207.45,203.79;108.02,84.55;146.11,144.36;116.02,231.22;283.26,73.89;298.11,141.70;258.50,215.98;219.26,70.84;245.16,116.17;227.64,179.79" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="85.92" ytl="39.98" xbr="321.35" ybr="250.27" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="r41.jpg" width="554" height="331">
+    <points label="Spot" source="manual" occluded="0" points="343.99,140.70;333.32,145.34;287.89,181.50;352.79,237.13;358.36,154.61;293.45,192.16;317.10,241.30;208.15,140.24;150.67,173.15;188.68,238.06;225.77,152.29;182.19,207.00;241.07,250.11" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="140.47" ytl="110.11" xbr="382.00" ybr="260.31" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="r42.jpg" width="940" height="553">
+    <points label="Spot" source="manual" occluded="0" points="641.56,163.84;644.66,161.52;575.73,276.15;727.53,380.71;623.75,197.15;473.49,313.32;588.89,462.03;327.11,154.55;255.08,243.62;364.29,359.79;291.48,187.85;164.46,292.41;276.77,428.73" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="138.90" ytl="93.36" xbr="759.29" ybr="493.01" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="r43.jpg" width="1052" height="647">
+    <points label="Spot" source="manual" occluded="0" points="705.84,182.62;696.78,180.81;583.51,341.20;696.78,558.68;653.29,210.72;479.30,362.95;730.31,492.53;393.22,179.00;307.13,299.52;442.15,407.35;261.82,171.75;151.27,323.08;256.39,513.37" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="104.15" ytl="96.54" xbr="855.36" ybr="583.15" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="r44.jpg" width="794" height="389">
+    <points label="Spot" source="manual" occluded="0" points="403.04,139.12;445.52,138.54;413.95,197.68;436.34,240.16;363.42,140.84;342.18,185.62;367.44,265.42;361.13,127.64;362.85,164.38;368.59,225.24;315.20,125.91;307.16,177.01;338.16,218.35" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="281.33" ytl="93.19" xbr="466.19" ybr="278.05" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="r45.jpg" width="786" height="540">
+    <points label="Spot" source="manual" occluded="0" points="609.71,154.26;549.96,148.97;523.49,293.42;627.86,326.70;670.97,161.07;581.72,270.73;619.54,414.43;330.63,203.42;238.36,308.55;327.61,456.03;447.86,204.18;425.17,390.98;527.27,403.84" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="196.01" ytl="110.40" xbr="713.32" ybr="484.01" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="r46.jpg" width="669" height="319">
+    <points label="Spot" source="manual" occluded="0" points="249.86,88.63;217.94,93.96;231.48,162.16;230.03,198.93;276.95,90.09;290.50,139.91;269.70,203.28;236.32,106.53;249.86,144.75;249.38,234.72;322.42,113.31;320.00,184.90;296.78,225.53" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="195.68" ytl="70.25" xbr="342.25" ybr="255.52" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="r47.jpg" width="907" height="478">
+    <points label="Spot" source="manual" occluded="0" points="440.11,184.77;393.91,206.20;395.25,253.73;405.29,279.84;481.61,196.15;482.95,243.69;476.26,269.13;393.24,237.66;392.57,299.25;407.30,364.19;495.67,240.34;482.95,282.51;470.23,336.07" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="361.78" ytl="160.67" xbr="514.42" ybr="382.93" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="r48.jpg" width="513" height="367">
+    <points label="Spot" source="manual" occluded="0" points="334.09,176.55;332.04,177.06;322.78,248.51;380.87,279.86;329.47,176.55;270.36,225.89;287.83,279.35;208.68,165.76;150.59,206.88;153.16,264.44;192.74,168.33;192.74,237.20;249.80,267.01" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="138.26" ytl="142.11" xbr="397.32" ybr="299.40" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="r49.jpg" width="643" height="432">
+    <points label="Spot" source="manual" occluded="0" points="261.61,159.12;233.78,165.77;276.13,232.33;282.79,313.40;303.96,154.28;322.11,246.85;274.92,265.60;336.03,220.23;375.36,303.72;329.37,331.55;414.69,207.52;464.90,275.89;448.57,363.62" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="206.55" ytl="129.47" xbr="493.34" ybr="380.56" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="r5.jpg" width="433" height="375">
+    <points label="Spot" source="manual" occluded="0" points="178.67,28.61;120.37,39.64;121.42,136.81;113.54,202.46;241.17,39.64;239.59,153.61;209.13,188.80;130.35,125.78;149.78,259.18;169.21,288.59;283.18,98.99;301.56,220.84;281.08,345.31" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="90.96" ytl="7.60" xbr="340.43" ybr="366.32" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="r6.jpg" width="558" height="472">
+    <points label="Spot" source="manual" occluded="0" points="305.74,123.62;408.87,125.60;412.24,228.73;447.87,424.40;192.04,128.90;187.41,241.29;171.54,438.94;380.44,81.97;375.81,159.97;396.31,319.29;201.95,76.68;202.68,188.40;200.63,338.46" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="135.18" ytl="26.44" xbr="475.70" ybr="462.74" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="r7.jpg" width="404" height="300">
+    <points label="Spot" source="manual" occluded="0" points="220.71,84.87;269.45,86.13;265.25,166.39;258.95,260.08;173.65,83.19;167.35,160.08;153.49,257.98;279.54,151.68;280.38,168.07;276.18,230.67;182.90,153.36;187.94,162.18;203.49,228.57" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="137.10" ytl="47.90" xbr="291.72" ybr="275.21" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="r8.jpg" width="394" height="243">
+    <points label="Spot" source="manual" occluded="0" points="208.73,71.30;256.38,73.34;269.31,126.10;262.84,215.60;167.89,73.34;171.63,134.26;157.68,214.92;286.67,87.64;291.77,113.84;277.48,186.00;189.33,76.75;210.09,113.84;208.39,185.31" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="137.26" ytl="41.69" xbr="305.73" ybr="229.90" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="r9.jpg" width="297" height="231">
+    <points label="Spot" source="manual" occluded="0" points="136.86,99.17;185.39,98.20;197.36,141.55;192.19,216.61;90.60,95.61;100.95,144.14;85.42,212.08;209.98,63.58;218.39,105.32;205.13,188.47;124.89,57.76;138.16,117.61;134.27,185.88" z_order="0">
+    </points>
+    <box label="Spot" source="manual" occluded="0" xtl="72.48" ytl="34.14" xbr="235.54" ybr="228.91" z_order="0">
+    </box>
+  </image>
+</annotations>
