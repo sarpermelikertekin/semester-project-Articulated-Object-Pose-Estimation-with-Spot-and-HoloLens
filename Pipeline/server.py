@@ -1,9 +1,8 @@
 import socket
 import struct
 import pipeline
+import paths
 
-
-# receiving the image bytes in chunks
 def receive_frame(client_socket, frame_size):
     frame_data = b""
     bytes_received = 0
@@ -32,8 +31,6 @@ def format_model_output(output_string):
     return formatted_string
 
 def main():
-    
-    # Create a TCP socket server
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((server_ip, server_port))
     server_socket.listen(1)
@@ -66,7 +63,7 @@ def main():
             client_socket.sendall(str(formatted_outputstring3d).encode())
         except Exception as e:
             print(f"Error processing image: {e}")
-            # Send a "no detection" message back to the client in case of an error
+
             no_detection_message = "no detection"
             client_socket.sendall(no_detection_message.encode())
 
@@ -77,6 +74,6 @@ def main():
 server_ip = ''  # listen from any ip
 server_port = 6000  
 image_path = 'received_frame.jpg'
-yolov8_model_path = 'C:\\Users\\sakar\\Semester Project\\semester-project-yolov8\\runs\\pose\\train22\\weights\\last.pt'
-sye_model_path = "C:/Users/sakar/Semester Project/simple-effective.pth"
+yolov8_model_path = paths.yolov8_model_path
+sye_model_path = paths.sye_model_path
 main()
