@@ -57,7 +57,6 @@ public class SpotDatasetGenerator : MonoBehaviour
     public GameObject plane;
     public Material[] skyboxes;
 
-    // Define data structures for JSON
     [System.Serializable]
     public class KeypointPose
     {
@@ -101,7 +100,6 @@ public class SpotDatasetGenerator : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         captureScreenshot = CaptureScreenshot.Instance;
@@ -111,7 +109,6 @@ public class SpotDatasetGenerator : MonoBehaviour
         trainImagesCount = (int)(totalImagesCount * 0.8);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(startingKey))
@@ -123,7 +120,6 @@ public class SpotDatasetGenerator : MonoBehaviour
     // Checks if a keypoint is visible from the camera
     private bool IsKeypointVisible(GameObject keypoint)
     {
-        //Camera camera = lightsAndCameraToBeRotated[0].GetComponent<Camera>();
         Vector3 directionToKeypoint = keypoint.transform.position - cameraObject.GetComponent<Camera>().transform.position;
 
         RaycastHit hit;

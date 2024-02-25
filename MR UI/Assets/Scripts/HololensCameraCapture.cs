@@ -23,23 +23,22 @@ public class HololensCameraCapture : MonoBehaviour
     public TextMeshProUGUI portInputField;
 
     public bool sendOnlyImage;
-    private TcpClient client; // TCP client for image data transmission
+    private TcpClient client;
 
-    private NetworkStream stream; // Network stream for TCP client
-    private bool isWaitingForResponse = false; // Check if client is waiting for server's response
-    private string response; // Server's response
+    private NetworkStream stream;
+    private bool isWaitingForResponse = false;
+    private string response;
 
-    public string host; // Server's IP address
-    public int port; // Server's port
+    public string host;
+    public int port;
 
-    byte[] imageBytes; // Image data in bytes
+    byte[] imageBytes;
 
     public const int BufferSize = 400000;
 
     string debugString = "";
     public TextMeshProUGUI debugText;
 
-    // Use this for initialization
     void Start()
     {
 
@@ -54,7 +53,7 @@ public class HololensCameraCapture : MonoBehaviour
         DebugInConsoleAndUI("port : " + port);
 
         InputPanel.SetActive(false);
-        DebugPanel.SetActive(true);
+        //DebugPanel.SetActive(true);
 
         StartCapturing();
     }

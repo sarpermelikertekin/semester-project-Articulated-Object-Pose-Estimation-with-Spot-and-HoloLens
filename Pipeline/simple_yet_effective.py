@@ -30,8 +30,8 @@ def load_model(model_path, input_size, output_size):
 
 def prepare_input(data_string):
     # Parse the string to extract keypoints, skipping the first five elements (class name, center_x, center_y, width, height)
-    data_list = data_string[0].split(',')[5:]  # Now correctly skipping class name, bbox center x, y, width, and height
-    # Assuming each keypoint is represented by x, y, and visibility
+    data_list = data_string[0].split(',')[5:]
+
     keypoints_2d = np.array([float(val) for val in data_list]).reshape(-1, 3)[:, :2]  # Take only x, y, ignore visibility
     keypoints_2d = keypoints_2d.flatten()
     return torch.tensor([keypoints_2d], dtype=torch.float32)
@@ -42,7 +42,7 @@ def predict_3d_keypoints(model, input_tensor):
     return outputs.numpy()
 
 def run_prediction(data_string, model_path):
-    model = load_model(model_path, input_size=26, output_size=39)  # Adjust input_size based on the actual keypoint count
+    model = load_model(model_path, input_size=26, output_size=39) 
     input_tensor = prepare_input(data_string)
     predicted_3d_keypoints = predict_3d_keypoints(model, input_tensor)
     

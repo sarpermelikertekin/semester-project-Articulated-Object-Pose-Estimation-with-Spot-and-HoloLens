@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// This Script Should be attached to the joints of the objects
+// 
 public class KeypointRenderer : MonoBehaviour
 {
     public string gizmoName;
@@ -19,10 +21,8 @@ public class KeypointRenderer : MonoBehaviour
     {
         if (drawGizmos)
         {
-            // Set the color of the gizmo
             Gizmos.color = gizmoColor;
 
-            // Draw a sphere at the position of the GameObject
             Gizmos.DrawSphere(transform.position, gizmoSize);
 
             // Optional: Draw the name and transform info near the gizmo

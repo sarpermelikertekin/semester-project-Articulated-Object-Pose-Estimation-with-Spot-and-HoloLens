@@ -4,8 +4,8 @@ using System.Collections.Generic;
 public class KeypointSpheresManager : MonoBehaviour
 {
     public static KeypointSpheresManager Instance { get; private set; }
-    public GameObject spherePrefab; // Assign a prefab or use a default sphere if null
-    public Material lineMaterial; // Assign a material for the lines
+    public GameObject spherePrefab;
+    public Material lineMaterial;
 
     private List<GameObject> keypoints = new List<GameObject>();
     private List<int[]> linePairs = new List<int[]> {
@@ -36,7 +36,6 @@ public class KeypointSpheresManager : MonoBehaviour
         }
         keypoints.Clear();
 
-        // Assuming keypointsString is defined and filled with the positions string
         var positions = ParseStringToVector3List(keypointsString);
         foreach (var position in positions)
         {
@@ -49,7 +48,6 @@ public class KeypointSpheresManager : MonoBehaviour
             keypoints.Add(sphere);
         }
 
-        // Draw lines between specified pairs of keypoints
         DrawLinesBetweenKeypoints();
     }
 

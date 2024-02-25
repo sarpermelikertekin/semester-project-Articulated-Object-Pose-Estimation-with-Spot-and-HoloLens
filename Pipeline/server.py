@@ -44,10 +44,8 @@ def main():
         size_data = client_socket.recv(4)
         frame_size = struct.unpack('!I', size_data)[0]
 
-        # Receive the frame from the client
         frame_data = receive_frame(client_socket, frame_size)
 
-        # Process the received frame as needed
         with open(image_path, 'wb') as f:
             f.write(frame_data)
 
@@ -66,10 +64,6 @@ def main():
 
             no_detection_message = "no detection"
             client_socket.sendall(no_detection_message.encode())
-
-    
-    client_socket.close()
-    server_socket.close()
 
 server_ip = ''  # listen from any ip
 server_port = 6000  

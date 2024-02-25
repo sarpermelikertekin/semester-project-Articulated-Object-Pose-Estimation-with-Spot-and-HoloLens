@@ -26,10 +26,8 @@ public class RandomPositionerOnHalfSphere : MonoBehaviour
 
     public void RepositionObject()
     {
-        // Generate a random radius between minSphereRadius and maxSphereRadius
         float randomRadius = Random.Range(minSphereRadius, maxSphereRadius);
 
-        // Generate a random position on a half-sphere
         Vector3 newPosition = RandomPositionOnHalfSphere(randomRadius);
 
         //Clamp the camera height
@@ -39,10 +37,9 @@ public class RandomPositionerOnHalfSphere : MonoBehaviour
         // Always look at the object
         transform.LookAt(objectToObserve.transform);
 
-        // Randomly set isTilted to true or false
+        //Conditionally tilt the camera's rotation
         isTilted = Random.value > 0.5f;
 
-        //Conditionally tilt the camera's rotation
         if (isTilted)
         {
             float xRotation = randomizeXTilt ? Random.Range(-cameraTiltValue, cameraTiltValue) : cameraTiltValue;

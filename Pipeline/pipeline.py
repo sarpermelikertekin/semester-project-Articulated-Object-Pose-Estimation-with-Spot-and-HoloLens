@@ -9,3 +9,6 @@ def simple_yolo(yolov8_model_path, sye_model_path, image_path):
     print(outputstring3d)
 
     return outputstring3d
+
+## More models can be added as functions to this script to select from the available ones
+## The script which are present here can be used in server script to process images
