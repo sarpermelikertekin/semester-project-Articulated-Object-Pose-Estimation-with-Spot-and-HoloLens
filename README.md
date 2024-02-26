@@ -1,5 +1,25 @@
 # Semester Project: Articulated Object Pose Estimation with Spot and HoloLens
-Semester Project with CVG Lab where we introduce a novel method for 3d pose estimation of quadruped robots using latest YOLOv8 and 2D-3D Mapping, a custom Transformer for pose detection (Poseformer), dataset generation pipeline to finetune the models in Unity Framework as well as data validators, MR UI for Hololens using MRTK2 and a communication pipeline to send and process the images as well as receive the processed answer to be displayed in MR environment.
+Semester Project with CVG Lab where we introduce a novel method for 3d pose estimation of quadruped robots using latest YOLOv8, a "Simple Yet Effective"2D-3D Mapping Network, a custom Transformer for pose detection (Poseformer), dataset generation pipeline to finetune the models in Unity Framework as well as data validators, MR UI for Hololens using MRTK2 and a communication pipeline to send and process the images as well as receive the processed answer to be displayed in MR environment.
+
+![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/90496aff-5b4f-426d-a3be-7ec04833e7ec)
+
+## Introduction and Repository Structure
+For each network we created a playground jupyter notebooks file to train and quickly test the models. To use them we have a directory called pipeline and in it we have pipeline.py to use the models in inference time.
+
+Furthermore for MR UI and Dataset Generation we used Unity Framework and in MR UI we used MRTK2 for creating the UI for HoloLens
+
+## Installation and Required Libraries
+We used Unity version 2021.3.33f1 in this project but any other stable version would be suitable as well. One can use LTS version to make sure it will work properly. For MR UI please check it with MRTK2 to see if it is compatible. If not you might encounter build issues.
+
+In Python we created a new environment and installed following libraries
+- PyTorch
+- Numpy
+- CV2
+- PIL
+- matplotlib
+- ultralytics
+
+For the traiend Simple Yet Effective Network of Poseformer as well as the Datasets we have generated, please contact to us.
 
 ## Dataset Generation Pipeline
 To use and finetune our models we introduced a novel pipeline for dataset generation. In our pipeline we take a screenshot of the current game view with the quadruped robot in it, then create the corresponding annotations for COCO Dataset format to be fed into YOLOv8 and 2D as well 3D positions of the Keypoints saved in a JSON file. We use a simple plane and a robot model. In each iteration we rotate the camera around the Spot, apply a random texture on plane and skybox, take a screenshot and generate the corresponding annotations and JSON files.
@@ -24,13 +44,12 @@ Finally here is an overview of assets we used for this project
 - AllSkyFree for skybox textures
 
 ## Dataset Generation Pipeline - Data Analysis Tools
-Furthermore we created a helper jupyter notebooks file to validate the datasets we created. It has 3 functionalities
+Furthermore we created a helper jupyter notebook file to validate the datasets we created. It has 3 functionalities.
 
 ### Bounding Box and Keypoint Validator
 It is used to validate the annotations. It simply places the points from annotations to the image
 
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/56c64aac-2f6d-433a-9184-fdc99ab30bfe)
-
 
 ### Bounding Box and Keypoint "Mask"
 It is used to validate the data distributions. We simply visualize the bounding box and keypoints on a black canvas. The idea is to have an idea of where the object is in the images as well as the single keypoints. It is used to give us an intuition of the data we generated and if we need more variations, when it comes to position of the object.
@@ -47,12 +66,17 @@ It is used to validate the data distributions again. Here the idea is to have an
 ![heatmap_of_keypoint_1](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/ea6bd57f-9f5f-4336-b2fa-ebb02b025f8f)
 ![histogram_of_bb_areas](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/b8a107ac-0585-4b48-a840-1d1fc46dd4bf)
 
+## Communication Pipeline and MR UI
+To perform the ML computations we used an off-device approach where we capture the image from HoloLens, send it to the server and process it with our Network. After that we receive the 3D keypoint locations as a string and we display them in MR space.
 
-## Installation and Required Libraries
-With the latest YOLOv8 it is possible to perform pose estimation task. To finetune the YOLOv8
+Here is how it looks like in MR Space
+
+![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/eb6aac49-9c3a-42ef-83d6-cf032c107d14)
+
+Furthermore we introduced a shell script to enable extension of this project. New models can be easily added to pipeline folder (in inference) and one can easily build a dunction in pipeline script to predict and use in server script.
 
 ## YOLOv8
-With the latest YOLOv8 it is possible to perform pose estimation task. To finetune the YOLOv8 we used synthetic data we generated from the Unity Dataset Generator and to close the domain gap we manually  annotated 50 real images and included them into the dataset at the end.
+With the latest YOLOv8 it is possible to perform pose estimation task. To finetune the YOLOv8 we used synthetic data we generated from the Unity Dataset Generator and to close the domain gap we manually annotated 50 real images and included them into the dataset at the end.
 
 YOLOv8 is accepting the COCO Dataset annotation. In our project we used the following format: 
 
