@@ -1,17 +1,17 @@
 # Semester Project: Articulated Object Pose Estimation with Spot and HoloLens
-Semester Project with CVG Lab where we introduce a novel method for 3d pose estimation of quadruped robots using latest YOLOv8, a "Simple Yet Effective"2D-3D Mapping Network, a custom Transformer for pose detection (Poseformer), dataset generation pipeline to finetune the models in Unity Framework as well as data validators, MR UI for Hololens using MRTK2 and a communication pipeline to send and process the images as well as receive the processed answer to be displayed in MR environment.
+Semester Project with CVG Lab where we introduce a novel method for 3d pose estimation of quadruped robots using latest YOLOv8, a "Simple Yet Effective" 2D-3D Mapping Network, a custom Transformer for pose detection (Poseformer), dataset generation pipeline to finetune the models in Unity Framework as well as data validators, MR UI for Hololens using MRTK2 and a communication pipeline to send and process the images as well as receive the processed answer to be displayed in MR environment.
 
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/90496aff-5b4f-426d-a3be-7ec04833e7ec)
 
 ## Introduction and Repository Structure
-For each network we created a playground jupyter notebooks file to train and quickly test the models. To use them we have a directory called pipeline and in it we have pipeline.py to use the models in inference time.
+For each network we created a playground jupyter notebooks file to train and quickly test the models. To use them in the pipeline with HoloLens we have a directory called pipeline and in it we have pipeline.py to use the models in inference time.
 
-Furthermore for MR UI and Dataset Generation we used Unity Framework and in MR UI we used MRTK2 for creating the UI for HoloLens
+Furthermore for MR UI and Dataset Generation we used Unity Framework and in MR UI we used MRTK2 for creating the UI for HoloLens.
 
 ## Installation and Required Libraries
 We used Unity version 2021.3.33f1 in this project but any other stable version would be suitable as well. One can use LTS version to make sure it will work properly. For MR UI please check it with MRTK2 to see if it is compatible. If not you might encounter build issues.
 
-In Python we created a new environment and installed following libraries
+In Python we created a new environment and installed following libraries:
 - PyTorch
 - Numpy
 - CV2
@@ -19,15 +19,15 @@ In Python we created a new environment and installed following libraries
 - matplotlib
 - ultralytics
 
-For the traiend Simple Yet Effective Network of Poseformer as well as the Datasets we have generated, please contact to us.
+For the traiend Simple Yet Effective Network, Poseformer and the Datasets we have generated, please contact to us.
 
 ## Dataset Generation Pipeline
-To use and finetune our models we introduced a novel pipeline for dataset generation. In our pipeline we take a screenshot of the current game view with the quadruped robot in it, then create the corresponding annotations for COCO Dataset format to be fed into YOLOv8 and 2D as well 3D positions of the Keypoints saved in a JSON file. We use a simple plane and a robot model. In each iteration we rotate the camera around the Spot, apply a random texture on plane and skybox, take a screenshot and generate the corresponding annotations and JSON files.
+To use and finetune our models we introduced a novel pipeline for dataset generation in Unity Framework. In our pipeline we take a screenshot of the current game view with the quadruped robot in it, then create the corresponding annotations for COCO Dataset format to be fed into YOLOv8 and 2D as well 3D positions of the Keypoints saved in a JSON file. We use a simple plane and a robot model. In each iteration we rotate the camera around the Spot, apply a random texture on plane and skybox, take a screenshot and generate the corresponding annotations and JSON files.
 
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/78e0a860-15e4-40a1-8caa-2bec0dc9ee32)
-![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/5aaa9a34-452c-4a3e-94da-07e3db28cf93)
+![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/51cde459-a34b-4813-8b33-6eb680bee5dd)
 
-Furthermore to handle visibility flag, one needs to put colliders in the object as well as place Keypoint Objects with Keypoint Renderer Script to detect the visibility. We send a ray from camera to each Joint and check if it collides with the corresponding keypoint or not. Also for the class distinction, one has to tag the object accordingly. Currently we have 2 classes "Spot" and "AnyMAL" and 13 keypoints with 1 for head and 3 keypoints for each leg.
+Furthermore to handle visibility flag, one needs to put colliders in the object as well as place Keypoint Objects with Keypoint Renderer Script attached to them to detect the visibility. We send a ray from camera to each Joint and check if it collides with the corresponding keypoint or not. Also for the class distinction, one has to tag the object accordingly. Currently we have 2 classes "Spot" and "AnyMAL" and 13 keypoints with 1 for head and 3 keypoints for each leg.
 
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/11306267-62b9-499c-85ed-1bb6569af262)
 
@@ -38,10 +38,10 @@ Furthermore we have 6 poses for Spot and one for AnyMAL. They both have idle and
 We also created a scene for video capture using Cinemachine.
 
 Finally here is an overview of assets we used for this project
-- Sketchfab For Unity to import the Sketchfab models into Unity (Spot and AnyMAL models)
-- YughuesFreeMetalMaterials for plane textures
-- Ground textures pack for plane textures
-- AllSkyFree for skybox textures
+- [Sketchfab For Unity to import the Sketchfab models into Unity (Spot and AnyMAL models)](https://assetstore.unity.com/packages/tools/input-management/sketchfab-for-unity-1430)
+- [YughuesFreeMetalMaterials for plane textures](https://assetstore.unity.com/packages/2d/textures-materials/metals/yughues-free-metal-materials-12949)
+- [Ground textures pack for plane textures](https://assetstore.unity.com/packages/2d/textures-materials/floors/yughues-free-ground-materials-13001#content)
+- [AllSkyFree for skybox textures](https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014)
 
 ## Dataset Generation Pipeline - Data Analysis Tools
 Furthermore we created a helper jupyter notebook file to validate the datasets we created. It has 3 functionalities.
@@ -87,9 +87,11 @@ We use YOLOv8 to predict 2D keypoint locations. Here are some examples of predic
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/1b413b26-f4f8-420d-b227-e33fe83ad1fd)
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/87884a8a-ca38-45ad-902c-b339a6b91690)
 
+- [We got inspired from this tutorial video](https://www.youtube.com/watch?v=gA5N54IO1ko&t=548s)
+- [More About Pose Estimation with YOLOv8](https://docs.ultralytics.com/tasks/pose/)
 
 ## 2D-3D Mapping: Simple Yet Effective Network
-For 2D-3D Mapping, we used the network proposed in the paper "A simple yet effective baseline for 3d human pose estimation". It is a network used to extract 3D keypoints given 2D keypoint extractions, which basically maps the 2D detections into 3D. We used PyTorch to implement the network.
+For 2D-3D Mapping, we used the network proposed in the paper ["A simple yet effective baseline for 3d human pose estimation"](https://arxiv.org/pdf/1705.03098v2.pdf). It is a network used to extract 3D keypoints given 2D keypoint extractions, which basically maps the 2D detections into 3D. We used PyTorch to implement the network.
 
 ![image](https://github.com/sarpermelikertekin/semester-project-Articulated-Object-Pose-Estimation-with-Spot-and-HoloLens/assets/49168444/3b5e9430-2123-42f4-99e1-acb732a81537)
 
